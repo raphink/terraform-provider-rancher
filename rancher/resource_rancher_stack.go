@@ -71,6 +71,7 @@ func resourceRancherStack() *schema.Resource {
 			},
 			"start_on_create": {
 				Type:     schema.TypeBool,
+				Default:  true,
 				Optional: true,
 				Computed: true,
 			},
